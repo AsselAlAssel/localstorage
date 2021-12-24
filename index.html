@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheey.css">
+
+</head>
+
+<body onload="show()">
+    <div class="container">
+        <h1>Enter items And Quantity</h1>
+        <div class="form">
+            <!-- input and button-->
+            Items: <input type="text" id="item" required> Quantity: <input type="text" id="quantity" required><br>
+            <button id="save">Save</button>
+            <button id="modify">Modify</button>
+            <button id="remove">Remove</button>
+        </div>
+
+
+
+        <div class="result">
+            <h3>Shopping List</h3>
+            <div id="divTable">
+                <!-- table -->
+                <table id="tableId">
+                    <tr>
+                        <th>Name</th>
+                        <th>Value</th>
+                    </tr>
+
+                </table>
+            </div>
+
+            <button id="clear">Clear</button>
+            <!--clear all table and all localstorage  -->
+        </div>
+
+    </div>
+    <br>
+
+
+    <script src="js.js"></script>
+</body>
+
+</html>

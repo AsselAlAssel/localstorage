@@ -1,0 +1,65 @@
+.container {
+    width: 50%;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+#divTable {
+    overflow-y: scroll;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+}
+
+.form {
+    background-color: rgb(166, 166, 233);
+}
+
+.form,
+.result {
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.result {
+    border: 1px solid black;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    margin: 20px 20px 20px 0px;
+}
+
+tr {
+    background-color: rgb(177, 177, 223);
+}
+
+th {
+    padding: 10px 20px;
+    width: 200px;
+}
+
+input:nth-child(1) {
+    margin-right: 30px;
+}
+
+#divTable::-webkit-scrollbar {
+    display: none;
+}
+
+#divTable {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        width: 100%;
+    }
+}
